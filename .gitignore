@@ -1,3 +1,6 @@
+# Manual Exclusion
+.vscode
+
 # Prerequisites
 *.d
 
