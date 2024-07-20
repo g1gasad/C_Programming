@@ -14,10 +14,5 @@ int main(){
     // adds a vertical tab space(idk what that is)
     printf("\nHello\0World");
     // Null character (used to terminate strings)
-    return 0;
+    return 0; 
 };
-
-int main2(){
-    printf("Hellob\tWorld");
-    return 0;
-}
