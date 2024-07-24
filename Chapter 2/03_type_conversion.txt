@@ -1,0 +1,9 @@
+In Programming, type compatibility is crucial.
+
+For int a = 3.5;
+The floating point number 3.5 will be demoted to 3, losing the fractional part
+because the value stored in a should be an integer.
+
+Conversly,
+For float a = 3;
+The integer number 3 will be promoted to 3.0
