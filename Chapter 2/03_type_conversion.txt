@@ -7,3 +7,10 @@ because the value stored in a should be an integer.
 Conversly,
 For float a = 3;
 The integer number 3 will be promoted to 3.0
+
+Operator Precedence:
+1. *, /, %
+2. +, -
+3. =
+
+Operator Associativity
