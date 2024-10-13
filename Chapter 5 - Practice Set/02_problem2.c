@@ -10,6 +10,6 @@ int main(){
     int c;
     printf("enter deg in celcius: ");
     scanf("%d", &c);
-    printf("fah is %f", degree_conv(c));
+    printf("fah is %.2f", degree_conv(c));
     return 0;
 }
