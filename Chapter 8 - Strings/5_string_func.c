@@ -11,7 +11,10 @@ int main(){
     // printf("%s %s\n", target, str);
 
     char concat_str[40] = "what is";
+    printf("%d\n", strlen(concat_str));
     strcat(concat_str, str1);
-    printf("%s", concat_str);
+    printf("%s\n", concat_str);
+    printf("%d\n", strlen(concat_str));
+
     return 0;
 }
