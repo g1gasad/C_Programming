@@ -11,7 +11,7 @@ int fibonacci(int n){
 }
 
 int main(){
-    int n=40;
+    int n=7;
 
     printf("%d", fibonacci(n));
 
