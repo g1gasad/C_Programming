@@ -1,0 +1,5 @@
+Our goal is to count the number of
+characters in this file.
+
+but, 3*4 is not 19!
+BRAHH!  What?
