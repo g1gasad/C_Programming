@@ -13,7 +13,8 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &number);
     // Clear the newline character left in the buffer
-    while (getchar() != '\n');
+    // while (getchar() != '\n');
+    fflush(stdin);
 
     printf("So.. what's your choice? ");
     scanf("%c", &choice);

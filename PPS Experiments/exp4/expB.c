@@ -8,7 +8,7 @@ int factorial(int a){
     }
 }
 
-int OddEven(int a){
+void OddEven(int a){
     if(a%2==0){
         printf("%d is Even", a);
     }
@@ -19,12 +19,13 @@ int OddEven(int a){
 
 int PrimeNumber(int a){
     for (int i=2; i<a; i++){
-        if (a%2==0){
-            printf("%d is Not Prime", a);
+        if (a%i==0){
+            // printf("%d is Not Prime", a);
             return 0;
         }
     }
-    printf("%d is Prime", a);
+    // printf("%d is Prime", a);
+    return 1;
 }
 
 int main(){
@@ -39,7 +40,8 @@ int main(){
 
     printf("Enter a number: ");
     scanf("%d", &number);
-    while (getchar() != '\n');
+    // while (getchar() != '\n');
+    fflush(stdin);
     printf("Enter your choice: ");
     scanf("%c", &choice);
 
@@ -53,7 +55,13 @@ int main(){
             break;
         }
         case 'C':{
-            PrimeNumber(number);
+
+            if (PrimeNumber(number)){
+                printf("%d is Prime", number);
+            }
+            else {
+                printf("%d is not Prime", number);
+            };
             break;
         }
         case 'D':{
