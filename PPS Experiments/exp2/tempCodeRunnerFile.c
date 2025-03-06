@@ -23,7 +23,7 @@ int main(){
                          {6, 6, 6},
                          {1, 2, 3},
                          {4, 3, 4}};
-    for (int i=0; i<1; i++){
+    for (int i=0; i<6; i++){
         a = testVec[i][0];
         b = testVec[i][1];
         c = testVec[i][2];

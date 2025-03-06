@@ -15,7 +15,7 @@ int vowel(char ch)
 
 int main()
 {
-    char ch = '6';
+    char ch = 'z';
     if (ch >= 'a' && ch <= 'z')
     {
         printf("Alphabet and a ");
