@@ -9,8 +9,8 @@ int main(){
     int* ptra = &a;
     int* ptrb = &b;
     char* ptr;
-    ptr = ptra - ptrb;
-    printf("the add of a is %u\n", ptra);
+    // ptr = ptra - ptrb;
+    printf("the add of a is %d\n", ptra);
     printf("the add of a is %u\n", ptrb);
     printf("the diff is %u\n", ptr);
     // ptr--;
